@@ -6,7 +6,9 @@ pamac install manjaro-printer
 sudo gpasswd -a yourusername sys
 
 sudo systemctl enable --now cups.service
+
 sudo systemctl enable --now cups.socket
+
 sudo systemctl enable --now cups.path
 
 pamac install avahi
